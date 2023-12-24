@@ -11,23 +11,112 @@
     <title> Sample Web </title>
 </head>
 <body>
- <header>
-    <div class="top-container">
-        
-        <img class="logo" src="assets/images/Logo.png" alt="Logo">
-        <nav class="topButtons">
-            <ul>
-                <li><a href="#" class="top-btn">MAIN</a></li>
-                <li><a href="#" class="top-btn">GALLERY</a></li>
-                <li><a href="#" class="top-btn">PROJECTS</a></li>
-                <li><a href="#" class="top-btn">CERTIFICATIONS</a></li>
-                <li><a href="#" class="top-btn">CONTACTS</a></li>
-                
-            </ul>
-        </nav>
-        </div>
+ <header class="top-container">
+    <div class="top-container__logo">
+       <img src="assets/images/Logo.png" alt="logo image">
+    </div>
+    <div class="top-container__nav-buttons">
+        <ul class="nav-list">
+            <li><a class="nav-btn">MAIN</a></li>
+            <li><a class="nav-btn">GALLERY</a></li>
+            <li><a class="nav-btn">PROJECTS</a></li>
+            <li><a class="nav-btn">CERTIFICATIONS</a></li>
+            <li><a class="nav-btn">CONTACTS</a></li>
+        </ul>
     </div>
 </header>
+
+<section class="main">
+    <div class="main__title-container">
+        <div class="title-container__left">
+
+        </div>
+        <div class="title-container__right">
+            <img src="assets/images/Main-Image.png" alt="main image" class="title-image">
+        </div>
+    </div>
+
+    <div class="main__about">
+        <div class="about__left">
+        </div>
+        <div class="about__right">
+            <h2 class="about-right__heading">About</h2>
+            <p class="about-right__paragraph">
+                Lorem Ipsum is simply dummy text of the printing and <br>
+                typesetting industry. Lorem Ipsum has been the <br>
+                industry's standard dummy text ever since the 1500s, <br>
+                when an unknown printer took a galley of type and <br>
+                scrambled it to make a type specimen book. It has <br>
+                survived not only five centuries, but also the leap into <br>
+                electronic typesetting, remaining essentially unchanged.
+            </p>
+            <img src="assets/images/Read More button.png" alt="Read More" class="about-right__readmore">
+        </div>
+    </div>
+    <div class="main__focus">
+        <div class="main-focus__top">
+            <h2 class="main-focus__title">Main Focus/Mission Statement</h2>
+        </div>
+        <ul class="main-focus__bottom">
+            <li class="focus-statement">
+                <span class="big-number">1 </span>
+                <p class="focus-text"><br>
+                    Lorem ipsum dolor sit amet, <br>
+                    consectetur adipiscing elit. <br>
+                    Sed efficitur, lectus et <br>
+                    facilisis placerat.</p>
+            </li>
+            <li class="focus-statement"> 
+                <span class="big-number">2 </span>
+                <p class="focus-text"><br>
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit. Sed efficitur, lectus et <br>
+                    facilisis placerat, magna mauris porttitor <br>
+                    tortor, a auctor est felis ut nisl.</p>    
+            </li>
+        </ul>
+    </div>
+    <div class="main__projects">
+        <div class="main-projects__top">
+            <h2 class="main-projects__title">Our Projects</h2>
+        </div>
+        <div class="main-projects__image-row">
+            <img src="assets/images/Rectangle 17.png" alt="image 1" class="main-projects__image1-row1">
+            <img src="assets/images/projects2.png" alt="image 2" class="main-projects__image2-row1">
+        </div>
+        <div class="main-projects__image-row">
+            <img src="assets/images/projects3.png" alt="image 1" class="main-projects__image3-row2">
+            <img src="assets/images/projects4.png" alt="image 2" class="main-projects__image4-row2">
+            <img src="assets/images/projects5.png" alt="image 2" class="main-projects__image5-row2">
+        </div>
+        <div class="main-projects__bottom">
+            <img src="assets/images/allProjects.png" alt="All Projects" class="all-projects">
+        </div>
+    </div>
+    <div class="main__contacts">
+        <div class="main-contacts__title">
+            <h2 class="main-contacts__title">Contact Us</h2>
+        </div>
+        <div class="main-contacts__body">
+            <div class="contacts-body__left">
+                <input type="text" placeholder="Name" class="input-text">
+                <input type="text" placeholder="Phone Number" class="input-text">
+                <input type="text" placeholder="E-mail" class="input-text">
+                <input type="text" placeholder="Interested In" class="input-text">
+                <input type="text" placeholder="Message" class="input-discription-text">
+            </div>
+            <div class="contacts-body__right">
+                <img src="assets/images/contactUs.png" alt="Contact Us" class="contacts-image">
+            </div>
+        </div>
+        <div class="main-contats__bottom">
+            <img src="assets/images/send email.png" alt="Send Email" class="send-mail">
+        </div>
+    </div>
+</section>
+<footer class="bottom-container">
+
+</footer>
 <script src="/scripts.js"></script>
 </body>
 </html>
